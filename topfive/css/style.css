@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Metamorphous&display=swap');
 
 
 *{
@@ -8,7 +9,7 @@
     text-decoration: none;
     border: none;
     outline: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Limelight', sans-serif;
 }
 
 body{
@@ -18,7 +19,7 @@ body{
 }
 
 body img {
-    border: 10px solid red;  
+    border: 5px solid red;  
 }
 
 body img:hover,
@@ -38,7 +39,7 @@ header{
 }
 
 .logo{
-    font-size: 5rem;
+    font-size: 3rem;
     color: #ff3e03;
     font-weight: 800;
     cursor: pointer;
@@ -50,8 +51,8 @@ header{
 }
 
 nav a{
-    margin-left: 7rem;
-    font-size: 2rem;
+    margin-left: 5rem;
+    font-size: 1rem;
     font-weight: 700;
     color: white;
 }
@@ -70,28 +71,30 @@ section{
 }
 
 section p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
     margin-bottom: 1rem;
+    font-family: 'Markazi Text', serif;
 }
 
 section h2{
-    font-size: 2rem;
+    color: #ff3e03;
+    font-size: 1rem;
     font-weight: 700;
     margin-bottom: 0rem;
     margin-top: 6rem;
 }
 
 section h4 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
     margin-bottom: 1rem;
     margin-top: 2rem;
+    font-family: 'mazaki text', serif;
 }
 
 section a{
-    padding: 0.5rem 1rem;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #ff3e03;
     transition: 0.3s ease;
@@ -104,10 +107,9 @@ section li{
 }
 
 section li h3{
-    font-weight: 700;
-    font-weight: 9rem;
+    font-size: 1px;
     margin-bottom: 1rem;
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 
 section li p{
@@ -122,10 +124,12 @@ section li p{
     background-color: black;
 }
 
+/* friend (saiya) showed me the flex one/two code */
+
 .flexone img {
-    height: 400px; 
+    height: 200px; 
 }
 
 .flextwo img {
-    height: 400px; 
+    height: 200px; 
 }
